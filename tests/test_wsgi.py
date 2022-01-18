@@ -11,5 +11,5 @@ class TestViews(TestCase):
     def test_one_roll(self):
         roll = self.client.get('/').json['roll']
         self.assertIsInstance(roll, int)
-        self.assertGreater(roll, 0)
-        self.assertLess(roll, 7)
+        self.assertGreater(roll, 7)
+        #self.assertLess(roll, 7)
