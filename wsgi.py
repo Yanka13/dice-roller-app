@@ -1,5 +1,5 @@
 # wsgi.py
-
+# API code
 from flask import Flask, jsonify
 
 app = Flask(__name__)
