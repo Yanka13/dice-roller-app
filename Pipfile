@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flask = "*"
 gunicorn = "*"
+sentry-sdk = {extras = ["flask"], version = "*"}
 
 [dev-packages]
 flask-testing = "*"

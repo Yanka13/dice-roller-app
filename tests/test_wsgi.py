@@ -4,7 +4,7 @@ from flask_testing import TestCase
 from wsgi import app
 
 class TestViews(TestCase):
-    def create_app(self):
+def create_app(self):
         app.config['TESTING'] = True
         return app
 
